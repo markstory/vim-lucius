@@ -766,6 +766,11 @@ hi link CocInfoFloat Pmenu
 hi link CocHintFloat Directory
 hi link CocHintFloat Pmenu
 
+" NERDTree:
+hi link NERDTreeOpenable MoreMsg
+hi link NERDTreeClosable MoreMsg
+hi link NERDTreeExecFile WarningMsg
+
 " ============================================================================
 " Preset Commands:
 " ============================================================================
