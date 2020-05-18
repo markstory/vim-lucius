@@ -522,7 +522,7 @@ endif
 " ----------------------------------------------------------------------------
 
 hi ColorColumn  guifg=NONE
-hi Pmenu        guifg=bg
+hi Pmenu        guifg=fg
 hi PmenuSel     guifg=fg
 hi PmenuThumb   guifg=fg
 hi StatusLine   guifg=bg
@@ -544,7 +544,7 @@ if s:style == "light"
     if s:contrast == "low"
         hi FoldColumn   guifg=#808080
         hi Folded       guifg=#808080
-        hi Pmenu                        guibg=#9e9e9e
+        hi Pmenu        guifg=fg        guibg=#e4e4e4
         hi PmenuSbar    guifg=#9e9e9e   guibg=#626262
         hi PmenuThumb                   guibg=#9e9e9e
         hi SignColumn   guifg=#808080
@@ -557,7 +557,7 @@ if s:style == "light"
     else
         hi FoldColumn   guifg=#626262
         hi Folded       guifg=#626262
-        hi Pmenu                        guibg=#808080
+        hi Pmenu        guifg=fg        guibg=#e4e4e4
         hi PmenuSbar    guifg=#808080   guibg=#444444
         hi PmenuThumb                   guibg=#9e9e9e
         hi SignColumn   guifg=#626262
