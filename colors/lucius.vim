@@ -755,10 +755,12 @@ hi link VimwikiHeader5 BConstant
 hi link VimwikiHeader6 BType
 
 " CoC:
-hi link CocErrorSign ErrorMsg
 hi link CocErrorFloat Pmenu
-hi link CocWarningSign WarningMsg
+hi link CocErrorHighlight ErrorMsg
+hi link CocErrorSign ErrorMsg
 hi link CocWarningFloat Pmenu
+hi link CocWarningHighlight WarningMsg
+hi link CocWarningSign WarningMsg
 hi link CocInfoSign MoreMsg
 hi link CocInfoFloat Pmenu
 hi link CocHintFloat Directory
