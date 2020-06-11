@@ -771,6 +771,12 @@ hi link NERDTreeOpenable MoreMsg
 hi link NERDTreeClosable MoreMsg
 hi link NERDTreeExecFile WarningMsg
 
+" Fern:
+hi link FernRoot WarningMsg
+hi link FernBranch Directory
+hi link FernLeaf MoreMsg
+hi link FernMarked ErrorMsg
+
 " ============================================================================
 " Preset Commands:
 " ============================================================================
